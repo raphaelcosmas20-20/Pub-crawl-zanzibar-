@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zanzibar Pub Crawl | Paje & Jambiani Nightlife</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root { --primary: #00f2ff; --secondary: #ff00ea; --dark: #0b0b0b; }
+        body { background-color: var(--dark); color: white; font-family: 'Arial', sans-serif; }
+        
+        /* Hero Section */
+        .hero {
+            height: 90vh;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1514525253361-bee8718a74a7?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover; background-position: center;
+            display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px;
+        }
+        h1 { font-weight: 900; font-size: 3.5rem; color: var(--primary); text-shadow: 0 0 15px var(--primary); }
+        .btn-main { background: var(--secondary); color: white; padding: 18px 40px; border-radius: 50px; font-weight: bold; text-decoration: none; font-size: 1.2rem; transition: 0.3s; box-shadow: 0 0 15px var(--secondary); display: inline-block; margin-top: 20px; border: none; }
+        .btn-main:hover { transform: scale(1.05); background: var(--primary); color: #000; box-shadow: 0 0 20px var(--primary); }
+
+        /* Pricing Card */
+        .price-card { background: #1a1a1a; border: 2px solid var(--primary); border-radius: 20px; padding: 40px; margin: 40px auto; max-width: 500px; }
+        .price-card h2 { color: var(--secondary); }
+        .price-card ul { text-align: left; list-style: none; padding: 0; font-size: 1.1rem; }
+        .price-card li { margin-bottom: 12px; }
+
+        /* Review Section */
+        .review { background: #111; padding: 20px; border-radius: 15px; margin-bottom: 15px; border-left: 4px solid var(--secondary); }
+        .stars { color: #ffca08; }
+        
+        footer { padding: 50px 20px; color: #555; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>ZANZIBAR PUB CRAWL</h1>
+        <p class="lead">Covering Paje • Jambiani • Bwejuu</p>
+        <p>The wildest night in paradise starts here.</p>
+        <a href="https://wa.me/255686628865?text=Hello!%20I%20want%20to%20book%20the%20$45%20Night%20Pass" class="btn-main">BOOK MY SPOT</a>
+    </header>
+
+    <div class="container text-center">
+        <div class="price-card">
+            <h2>FULL NIGHT PASS</h2>
+            <div class="display-4 fw-bold mb-4">$45 <span style="font-size: 1.2rem; color: #777;">/ person</span></div>
+            <ul class="mb-4">
+                <li>🚕 <strong>FREE Transportation:</strong> Pickup & Dropoff in Paje/Jambiani/Bwejuu</li>
+                <li>📍 <strong>3 Spots:</strong> 2 Local Bars + 1 Premier Night Club</li>
+                <li>🍺 <strong>Stop 1:</strong> 3 Local Beers Included</li>
+                <li>🔥 <strong>Stop 2:</strong> 3 Shots of Local Spirits</li>
+                <li>🍸 <strong>The Club:</strong> 1 Signature Cocktail + Free Entry</li>
+            </ul>
+            <p class="text-muted small">Everything included. No hidden fees.</p>
+        </div>
+    </div>
+
+    <section class="container py-5">
+        <h2 class="text-center mb-5" style="color:var(--primary)">REAL REVIEWS</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="review">
+                    <div class="stars">★★★★★</div>
+                    <p>"Amazing night! The transport made it so easy. Best way to see Paje's nightlife safely." - <em>Sarah, UK</em></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="review">
+                    <div class="stars">★★★★★</div>
+                    <p>"The spirits were flowing! Great group of people and the club was fire." - <em>Mark, Germany</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/255686628865" 
+       style="position:fixed;width:65px;height:65px;bottom:30px;right:30px;background-color:#25d366;border-radius:50px;text-align:center;z-index:1000;display:flex;align-items:center;justify-content:center;box-shadow: 0 4px 10px rgba(0,0,0,0.5);" 
+       target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" style="width:35px;" alt="WhatsApp">
+    </a>
+
+    <footer>
+        <p>&copy; 2026 Zanzibar Pub Crawl | Paje - Jambiani - Bwejuu</p>
+        <p>Must be 18+ | Drink Responsibly</p>
+    </footer>
+
+</body>
+</html>
